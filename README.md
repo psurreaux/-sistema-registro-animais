@@ -13,7 +13,7 @@ Visualize todos os animais cadastrados.
 
 Clone o repositório e entre na pasta do projeto:
 ```bash
-git clone https://github.com/seu-usuario/sistema-registro-animais.git
+git clone https://github.com/psurreaux/sistema-registro-animais.git
 cd sistema-registro-animais
 ```
 
