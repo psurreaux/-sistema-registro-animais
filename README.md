@@ -1,45 +1,47 @@
-#Sistema de Registro de Animais
+# Sistema de Registro de Animais
 
 Este projeto é um sistema de registro de animais desenvolvido em Python com FastAPI para o backend e SQLite como banco de dados. Ele permite que os usuários registrem características dos animais, como número de registro, sexo, idade e qualidade, e armazena essas informações no banco de dados.
 
-##Visão Geral
+## Visão Geral
 
-###Este sistema permite que um usuário:
+### Este sistema permite que um usuário:
 
 Cadastre um animal no banco de dados informando suas características.
 Visualize todos os animais cadastrados.
 
-##Instalação
+## Instalação
 
 Clone o repositório e entre na pasta do projeto:
-
-´´bash
+```bash
 git clone https://github.com/seu-usuario/sistema-registro-animais.git
 cd sistema-registro-animais
+```
 
 Instale as dependências:
-´´bash
+```bash
 pip install fastapi uvicorn
+```
 
 Crie o banco de dados e a tabela 'animais':
-´´bash
+```bash
 python setup_database.py
+```
 
 Inicie a aplicação:
-´´bash
+```bash
 uvicorn main:app --reload
+```
 
-
-##Como usar
+## Como usar
 Abra http://127.0.0.1:8000/docs em seu navegador para acessar a interface interativa da API.
 Utilize os endpoints POST /animais/ para registrar um novo animal e GET /animais/ para visualizar todos os animais cadastrados.
 
-##Endpoints
+## Endpoints
 POST /animais/: Registra um novo animal
 GET /animais/: Lista todos os animais
 
 
-##Tecnologias Usadas
+## Tecnologias Usadas
 
 Python: Linguagem principal do projeto.
 FastAPI: Framework para construção da API.
